@@ -1,3 +1,7 @@
+A modern role-based attendance management system built with React, Supabase, Tailwind CSS, and Vite. The system supports administrators, teachers, and students with secure authentication, attendance tracking, reporting, and dashboard analytics.
+
+=======
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
