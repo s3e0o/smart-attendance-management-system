@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { supabase } from "../services/supabaseClient";
+import { supabase } from "../../services/supabaseClient";
 
 export default function Register() {
   const [fullName, setFullName] = useState("");
