@@ -8,7 +8,7 @@ import TeacherDashboard from "./pages/teacher/Dashboard";
 import StudentDashboard from "./pages/student/Dashboard";
 import Teachers from "./pages/admin/Teachers";
 import Subjects from "./pages/admin/Subjects";
-
+import TeacherAttendance from "./pages/teacher/Attendance";
 import Students from "./pages/admin/Students";
 
 export default function App() {
@@ -35,11 +35,17 @@ export default function App() {
         path="/admin/teachers"
         element={<Teachers />}
       />
-      
+
       <Route
         path="/admin/subjects"
         element={<Subjects />}
       />
+
+      <Route
+        path="/teacher/attendance/:subjectId"
+        element={<TeacherAttendance />}
+      />
+
     </Routes>
 
   );
